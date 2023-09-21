@@ -1,0 +1,97 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+  background-image: linear-gradient(0deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    margin:0;  
+    padding:0;
+    box-sizing:border-box;
+  
+  }
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+ text-align:center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#todoInput{
+ color: #6912d3; 
+}
+
+input {
+  font-size: 32px;
+display: flex;
+    padding: 5px;
+    margin-top: 6rem;
+    width: 70rem;
+  height: 4rem;
+   border:2px solid green;
+  border-radius: 20px;
+}
+
+#addTodoBtn {
+margin-top: 7rem;
+ width: 110px;
+  height: 43px;
+  border-radius: 20px;
+  font-weight:bold;
+  cursor:pointer;
+  background-color:#007bff;
+  text-align: center;
+}
+
+#addTodoBtn:hover{
+      background-image: linear-gradient(to right, #2d16a2 0%, #F4D03F 51%, #d03e25 100%);
+  }
+  
+
+#notodos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #ddbbbb;
+ border:2px solid green;
+  border-radius: 20px;
+   font-size: 32px;
+  margin-bottom: 5px;
+  width: 66rem;
+}
+
+.task-item span {
+  flex-grow: 1;
+}
+
+.btn-remove {
+    position:relative;
+  font-size:45px;  
+    color:black;
+    background-color:transparent;
+    right: 20px;
+    border-radius:45px;
+    width:80px;
+}
+
+#noTodosMessage {
+    display: none;
+    margin-top: 6rem;
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 33px;
+}
